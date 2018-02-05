@@ -2,11 +2,6 @@
 
 This repository contains documentation and code for the electric drift trike built by Matt Nowicki, Christian Moore, Dan Meana, Kuji Nakano, and David Cranor during April/May 2017.  It's a hobby build using spare parts, random things from Taobao, copious amounts of Tsingtao, and a little bit of custom machine work to make it all fit together so there aren't really any upfront design docs.  Additional documentation will be added when (if...?) it is produced.
 
-# Features
-
-- Something
-- Something else
-
 ## Notes on firmware
 
 At this point, the (seriously hacky) code implements a frequency counter from the wheelmotor's hall effect feedback line for getting a sense of wheel speed as well as a lightshow for the onboard SK9822 smart LEDs.  Although less commonly found than WS2812, these LEDs are driven using a full SPI bus so they are much less timing sensitive and don't need to clobber the microcontroller's interrupt system in order to work properly.
@@ -33,6 +28,3 @@ At this point, the (seriously hacky) code implements a frequency counter from th
 - Moar animations and pretty colors
 - General cleanup
 
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
